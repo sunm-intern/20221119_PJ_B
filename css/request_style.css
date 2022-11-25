@@ -13,7 +13,7 @@ body {
   line-height: 2;
   font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   /* TODO */
-  background-color: #dc143c;
+  background-color: rgb(242, 242, 242);
 }
 
 *,
@@ -26,6 +26,8 @@ body {
 /* --------------------------------
  * parts
  * -------------------------------- */
+ 
+
 .heading {
   margin: 80px 0 10px;
   font-size: 4.0rem;
@@ -40,7 +42,7 @@ body {
   padding: 10px 10px;
   display: flex;/* 子要素をflexboxで揃える */
   align-items: center;  /* 子要素をflexboxにより中央に配置する */
-  background-color: #fff;
+  background-color: rgb(178, 178, 178);
   box-shadow: 0 0 10px 1px #858360;
 
 }
@@ -89,7 +91,7 @@ margin: 0 10%;
 .request-submit{
   width: 100px;
   height: 50px;
-  background-color: #fff;
+  background-color: background-color: rgb(221, 221, 221);
   border-radius: 5px;
   border: 1px solid #ccc;
 }
